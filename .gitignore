@@ -1,0 +1,13 @@
+/.vscode
+/bot.conf
+/bot.spec
+/bot_dispatcher.pyc
+/build
+/dist
+/python3
+/test
+/test.py
+/test_r.py
+/tt
+/version
+/__pycache__

@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram Bot
+After=network.target
+
+[Service]
+User=root
+Group=root
+
+WorkingDirectory=/root/vk_reposter
+Environment="PYTHONPATH=/root/vk_reposter"
+ExecStart=/root/vk_reposter/venv/bin/python /root/vk_reposter/bot.py
+
+[Install]
+WantedBy=multi-user.target
